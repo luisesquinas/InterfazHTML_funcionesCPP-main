@@ -16,10 +16,9 @@ int main() {
         // Comparar el QUERY_STRING con las acciones posibles
         if (strcmp(queryString, "accion=iniciar") == 0) {
             cout << "Hola mundo"; // Mensaje para el botón "Iniciar"
-        } else if (strcmp(queryString, "accion=segundoBoton") == 0) {
-            cout << "Hola mundo con el segundo botón"; // Mensaje para el segundo botón
-        } else {
-            cout << "Acción no reconocida."; // Mensaje de error si no se reconoce la acción
+        }  
+        else {
+            cout << "Hola mundo con el segundo botón."; // Mensaje de error si no se reconoce la acción
         }
     } else {
         cout << "No se recibió ninguna acción."; // Mensaje de error si no se recibe acción
